@@ -11,8 +11,8 @@ jobs:
       - name: Convert SVG
         uses: joergnapp/convert-svg-to-png@main
         with:
-          svgpath: 'svg/'
-          pngpath: 'png/'
+          svgpath: '/'
+          pngpath: '/'
           zoom: '4'
 
       - name: Commit files
