@@ -27,7 +27,8 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add png/*.png
+          git add png_32/*.png
+          git add png_256/*.png
           git commit -m "SVG to png" -a
 
       - name: Push changes
