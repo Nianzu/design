@@ -13,7 +13,7 @@ jobs:
         with:
           svgpath: 'svg/'
           pngpath: 'png/'
-          zoom: '4'
+          zoom: '16'
 
       - name: Commit files
         run: |
