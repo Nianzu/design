@@ -12,8 +12,16 @@ jobs:
         uses: joergnapp/convert-svg-to-png@main
         with:
           svgpath: 'svg/'
-          pngpath: 'png/'
+          pngpath: 'png_256/'
           zoom: '16'
+
+
+      - name: Convert SVG
+        uses: joergnapp/convert-svg-to-png@main
+        with:
+          svgpath: 'svg/'
+          pngpath: 'png_32/'
+          zoom: '2'
 
       - name: Commit files
         run: |
